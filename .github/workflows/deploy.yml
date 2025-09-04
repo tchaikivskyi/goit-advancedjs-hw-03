@@ -21,3 +21,6 @@ jobs:
         with:
           branch: gh-pages
           folder: dist
+
+env:
+  VITE_PIXABAY_API: ${{ secrets.VITE_PIXABAY_API }}
